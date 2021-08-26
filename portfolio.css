@@ -225,10 +225,12 @@ section {
 }
 
 section:nth-child(2n) {
+    width: 100%;
     background-color: rgb(243, 239, 239);
 }
 
 section:nth-child(2n+1) {
+    width: 100%;
     background-color: white;
 }
 
@@ -292,6 +294,8 @@ section:nth-child(2n+1) {
 }
 
 .timeline-boxes {
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
     position: relative;
     margin: 10px;
     width: 40%;
