@@ -399,7 +399,7 @@ section:nth-child(2n+1) {
 
     .timeline-boxes:nth-child(2n) {
         left: 12%;
-    }
+    } 
     .timeline-boxes:nth-child(2n)::after {
         left: -12%;
     }
